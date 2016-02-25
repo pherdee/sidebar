@@ -1,0 +1,36 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#options-container {
+  clear:left;
+  float:left;
+  width:100%;
+  position:relative;
+  background:#efefef; /* column 2 background colour */
+}
+#question-container {
+  float:left;
+  width:100%;
+  position:relative;
+  right:80%;
+  background:#fff; /* column 1 background colour */
+  -webkit-box-shadow: 6px 0 5px -1px #ddd;
+          box-shadow: 6px 0 5px -1px #ddd;
+}
+#question {
+  float:left;
+  width:20%;
+  position:relative;
+  left:80%;
+  overflow:hidden;
+  padding:4px;
+}
+#options {
+  float:left;
+  width:80%;
+  position:relative;
+  left:80%;
+  padding:4px;
+  overflow:hidden;
+}
